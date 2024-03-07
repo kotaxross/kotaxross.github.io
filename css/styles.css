@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	font-family: Times New Roman;
+}
+
+h1, p {
+	margin: 0
+}
+
+header {
+	background-color: #cccccc;
+	text-align: center;
+}
+
+.main {
+	background-color: #eeeeee;
+	margin: 30px 0;
+}
+
+p {
+	text-align: center;
+}
+
+ul {
+	padding: 0;
+	margin: 30px 150px 0;
+}
+
+li {
+	list-style: none;
+	background-color: ghostwhite;
+	text-align: center;
+	padding: 16px 0;
+	border-radius: 8px;
+}
+
+li + li {
+	margin-top: 20px;
+}
+
+
+footer {
+	background-color: #eeeeee;
+	text-align: center;
+}
