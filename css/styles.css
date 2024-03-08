@@ -40,7 +40,7 @@ header {
 
 .main ul {
 	padding-left: 0;
-	margin: 24px 100px 0;
+	margin: 24px 75px 0;
 }
 
 .main li {
@@ -52,8 +52,8 @@ header {
 }
 
 .main li a {
-	display: block;
-	padding: 20px 0;
+	display: flex;
+	padding: 2px;
 }
 
 .main li a:active {
@@ -64,6 +64,16 @@ header {
 	margin-top: 24px;
 }
 
+.main li img {
+	height: 80px;
+	width: 110px;
+	object-fit: cover;
+	border-radius: 8px 0 0 8px;
+}
+
+.main li div {
+	margin: auto;
+}
 
 /***********************************
 	footer
