@@ -3,7 +3,7 @@ body {
 	font-family: Times New Roman;
 }
 
-h1, p {
+h1, h2, h3, h4, p {
 	margin: 0
 }
 
@@ -20,9 +20,21 @@ li {
 	header
 ************************************/
 header {
+	width: 100%;
+	position: fixed;
+	top: 0;
 	text-align: center;
-	padding: 12px 0;
+	padding: 8px 0;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	background-color: rgba(255, 255, 255, 1);
+}
+
+header a {
+	position: fixed;
+	font-size: 25px;
+	left: 0;
+	top: 0;
+	padding: 15px 14px 10px;
 }
 
 
@@ -30,20 +42,20 @@ header {
 	main
 ************************************/
 .main {
-	padding: 20px 0 32px;
+	padding: 72px 0 90px;
 	background-color: rgba(0, 0, 0, .02);
 }
 
-.main p {
+.index p {
 	text-align: center;
 }
 
-.main ul {
+.index ul {
 	padding-left: 0;
-	margin: 24px 75px 0;
+	margin: 20px 64px 0;
 }
 
-.main li {
+.index li {
 	box-shadow: 0.2px 0.2px 8px rgba(0, 0, 0, .1), -0.2px -0.2px 8px rgba(0, 0, 0, .1);
 	background-color: #ffffff;
 	text-align: center;
@@ -51,49 +63,150 @@ header {
 	font-weight: bold;
 }
 
-.main li a {
+.index li a {
 	display: flex;
 	padding: 2px;
 }
 
-.main li a:active {
+.index li a:active {
 	background-color: #eeffff;
 }
 
-.main li + li {
+.index li + li {
 	margin-top: 24px;
 }
 
-.main li img {
-	height: 80px;
-	width: 110px;
+.index li img {
+	height: 90px;
+	width: 120px;
 	object-fit: cover;
 	border-radius: 8px 0 0 8px;
 }
 
-.main li div {
+.index li div {
 	margin: auto;
+}
+
+.culture-item .hero {
+	padding-left: 8%;
+}
+
+.culture-item .hero img {
+	width: calc(84 / 92 * 100%);
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.culture-item .hero p {
+	padding-top: 8px;
+	padding-right: 5%;
+}
+
+.culture-item div + div {
+	margin-top: 32px;
+}
+
+.culture-item .menu h3 {
+	padding-left: 8%;
+	padding-bottom: 2px;
+}
+
+.culture-item .menu ul {
+	padding-left: 10%;
+	margin: 0;
+}
+
+.culture-item .menu li + li {
+	margin-top: 18px;
+}
+
+.culture-item .menu li img {
+	width: calc(100% * 80 / 90);
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.culture-item .course h3 {
+	padding-left: 8%;
+	padding-bottom: 2px;
+}
+
+.culture-item .course ul {
+	padding-left: 10%;
+	margin: 0;
+}
+
+.culture-item .course li + li {
+	margin-top: 18px;
+}
+
+.culture-item .cook h3 {
+	padding-left: 8%;
+	padding-bottom: 2px;
+}
+
+.culture-item .cook ul {
+	padding-left: 10%;
+	margin: 0;
+}
+
+.culture-item .cook li + li {
+	margin-top: 18px;
+}
+
+.culture-item .cook li video {
+	width: calc(80 / 90 * 100%);
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.culture-item .restaurant h3 {
+	padding-left: 8%;
+	padding-bottom: 2px;
+}
+
+.culture-item .restaurant ul {
+	padding-left: 10%;
+	margin: 0;
+}
+
+.culture-item .restaurant li img {
+	width: calc(80 / 90 * 100%);
+	aspect-ratio: 5 / 3;
+	object-fit: cover;
+	vertical-align: bottom;
 }
 
 /***********************************
 	footer
 ************************************/
 footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	background-color: #ffffff;
-	text-align: center;
-	padding: 8px 16px;
 	box-shadow: -2px 0px 4px rgba(0, 0, 0, .1);
 }
 
 footer ul {
 	padding-left: 0;
 	margin: 0;
-	display: flex;
-	justify-content: space-between;
+}
+
+footer li {
+	display: inline-block;
+	float: left;
+	width: calc(100% / 5);
+	text-align: center;
 }
 
 footer li a {
+	display: block;
 	color: #aaaaaa;
+	padding: 8px 0;
 }
 
 footer li #current {
