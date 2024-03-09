@@ -42,7 +42,7 @@ header a {
 	main
 ************************************/
 .main {
-	padding: 72px 0 90px;
+	padding: 74px 0 90px;
 	background-color: rgba(0, 0, 0, .02);
 }
 
@@ -52,7 +52,7 @@ header a {
 
 .index ul {
 	padding-left: 0;
-	margin: 20px 64px 0;
+	margin: 20px 15% 0;
 }
 
 .index li {
@@ -77,8 +77,8 @@ header a {
 }
 
 .index li img {
-	height: 90px;
-	width: 120px;
+	width: 50%;
+	aspect-ratio: 4 / 3;
 	object-fit: cover;
 	border-radius: 8px 0 0 8px;
 }
