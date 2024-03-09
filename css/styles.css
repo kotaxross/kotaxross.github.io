@@ -1,10 +1,10 @@
 body {
 	margin: 0;
-	font-family: Times New Roman;
+	font-family: times new roman, serif;
 }
 
 h1, h2, h3, h4, p {
-	margin: 0
+	margin: 0;
 }
 
 a {
@@ -87,6 +87,20 @@ header a {
 	margin: auto;
 }
 
+.culture-item .ja {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.culture-item img,
+.culture-item video {
+	margin-bottom: 4px;
+}
+
+.culture-item iframe {
+	margin-top: 4px;
+}
+
 .culture-item .hero {
 	padding-left: 8%;
 }
@@ -99,85 +113,47 @@ header a {
 }
 
 .culture-item .hero p {
-	padding-top: 8px;
 	padding-right: 5%;
 }
 
 .culture-item div + div {
-	margin-top: 32px;
+	margin-top: 36px;
 }
 
-.culture-item .menu h3 {
-	padding-left: 8%;
-	padding-bottom: 2px;
+.culture-item .topic h3 {
+	margin-left: 8%;
+	margin-bottom: 12px;
+	margin-right: 10%;
+	border-bottom: 1px solid #000000;
 }
 
-.culture-item .menu ul {
+.culture-item .topic p {
+	padding-right: 5%;
+}
+
+.culture-item .topic ul {
 	padding-left: 10%;
 	margin: 0;
 }
 
-.culture-item .menu li + li {
-	margin-top: 18px;
+.culture-item .topic li + li {
+	margin-top: 24px;
 }
 
-.culture-item .menu li img {
+.culture-item .topic li img,
+.culture-item .topic li video {
 	width: calc(100% * 80 / 90);
 	aspect-ratio: 5 / 3;
 	object-fit: cover;
 	vertical-align: bottom;
 }
 
-.culture-item .course h3 {
-	padding-left: 8%;
-	padding-bottom: 2px;
-}
-
-.culture-item .course ul {
-	padding-left: 10%;
-	margin: 0;
-}
-
-.culture-item .course li + li {
-	margin-top: 18px;
-}
-
-.culture-item .cook h3 {
-	padding-left: 8%;
-	padding-bottom: 2px;
-}
-
-.culture-item .cook ul {
-	padding-left: 10%;
-	margin: 0;
-}
-
-.culture-item .cook li + li {
-	margin-top: 18px;
-}
-
-.culture-item .cook li video {
-	width: calc(80 / 90 * 100%);
+.culture-item .topic li iframe {
+	width: calc(100% * 80 / 90);
 	aspect-ratio: 5 / 3;
 	object-fit: cover;
 	vertical-align: bottom;
-}
-
-.culture-item .restaurant h3 {
-	padding-left: 8%;
-	padding-bottom: 2px;
-}
-
-.culture-item .restaurant ul {
-	padding-left: 10%;
-	margin: 0;
-}
-
-.culture-item .restaurant li img {
-	width: calc(80 / 90 * 100%);
-	aspect-ratio: 5 / 3;
-	object-fit: cover;
-	vertical-align: bottom;
+	border: none;
 }
 
 /***********************************
