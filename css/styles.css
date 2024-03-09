@@ -39,9 +39,9 @@ header a {
 
 
 /***********************************
-	main
+	index
 ************************************/
-.main {
+.index {
 	padding: 74px 0 90px;
 	background-color: rgba(0, 0, 0, .02);
 }
@@ -85,6 +85,15 @@ header a {
 
 .index li div {
 	margin: auto;
+}
+
+
+/***********************************
+	culture-item
+************************************/
+.culture-item {
+	background-color: #ffffff;
+	padding: 74px 0 90px;
 }
 
 .culture-item .ja {
