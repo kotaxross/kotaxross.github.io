@@ -153,6 +153,7 @@ header a {
 	aspect-ratio: 5 / 3;
 	object-fit: cover;
 	vertical-align: bottom;
+	margin-top: 16px;
 	border: none;
 }
 
