@@ -48,7 +48,11 @@ header a {
 }
 
 .index-2 {
-	padding-bottom: 42px;
+	padding-bottom: 38px;
+}
+
+body:has(.index-2) {
+	background-color: rgba(0, 0, 0, .02);
 }
 
 .index p {
