@@ -47,6 +47,10 @@ header a {
 	background-color: rgba(0, 0, 0, .02);
 }
 
+.index-2 {
+	padding-bottom: 42px;
+}
+
 .index p {
 	text-align: center;
 }
@@ -95,6 +99,10 @@ header a {
 .culture-item {
 	background-color: #ffffff;
 	padding: 74px 0 96px;
+}
+
+.culture-item-2 {
+	padding-bottom: 42px;
 }
 
 .culture-item .ja {
