@@ -51,7 +51,7 @@ header a {
 	padding-bottom: 38px;
 }
 
-body:has(.index-2) {
+html:has(.index-2) {
 	background-color: rgba(0, 0, 0, .02);
 }
 
