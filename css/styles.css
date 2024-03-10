@@ -51,10 +51,6 @@ header a {
 	padding-bottom: 38px;
 }
 
-html:has(.index-2) {
-	background-color: rgba(0, 0, 0, .02);
-}
-
 .index p {
 	text-align: center;
 }
