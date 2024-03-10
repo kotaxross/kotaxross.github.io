@@ -43,7 +43,7 @@ header a {
 	index
 ************************************/
 .index {
-	padding: 74px 0 104px;
+	padding: 74px 0 96px;
 	background-color: rgba(0, 0, 0, .02);
 }
 
@@ -94,7 +94,7 @@ header a {
 ************************************/
 .culture-item {
 	background-color: #ffffff;
-	padding: 74px 0 104px;
+	padding: 74px 0 96px;
 }
 
 .culture-item .ja {
@@ -194,7 +194,7 @@ footer li {
 footer li a {
 	display: block;
 	color: #aaaaaa;
-	padding: 10px 0 20px;
+	padding: 10px 0 10px;
 }
 
 footer li #current {
