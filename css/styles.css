@@ -30,6 +30,16 @@ header {
 	background-color: rgba(255, 255, 255, 1);
 }
 
+header img {
+	height: 37px;
+	vertical-align: bottom;
+	margin-right: 8px;
+}
+
+header h1 {
+	display: inline-block;
+}
+
 header a {
 	position: fixed;
 	font-size: 25px;
@@ -134,7 +144,7 @@ header a {
 	padding-right: 5%;
 }
 
-.culture-item div + div {
+.culture-item > div + div {
 	margin-top: 36px;
 }
 
@@ -143,6 +153,8 @@ header a {
 	margin-bottom: 12px;
 	margin-right: 10%;
 	border-bottom: 1px solid #000000;
+	display: flex;
+	justify-content: space-between;
 }
 
 .culture-item .topic p {
@@ -173,6 +185,41 @@ header a {
 	vertical-align: bottom;
 	margin-top: 16px;
 	border: none;
+}
+
+.culture-item .card {
+	/* 10 / (4.8 * 5) */ 
+	aspect-ratio: 10 / 24;
+	perspective: 2000px;
+}
+
+.culture-item .card-inner {
+	height: calc(23px + 100% + 68px * 5 - 24px);
+	transition: transform .6s;
+	transform-style: preserve-3d;
+}
+
+.culture-item .flip .card-inner {
+	transform: rotateY(180deg);
+}
+
+.culture-item .card-front,
+.culture-item .card-back {
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+.culture-item .card-back {
+	transform: rotateY(180deg);
+}
+
+.culture-item #btn {
+	color: darkblue;
+}
+
+.culture-item .card-back .topic + .topic {
+	margin-top: 36px;
 }
 
 /***********************************
