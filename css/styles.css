@@ -190,7 +190,7 @@ header a {
 .culture-item .card {
 	/* 10 / (4.8 * 5) */ 
 	aspect-ratio: 10 / 24;
-	perspective: 2000px;
+	perspective: 1000px;
 }
 
 .culture-item .card-inner {
