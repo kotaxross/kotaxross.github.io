@@ -111,10 +111,6 @@ header a {
 	padding: 74px 0 96px;
 }
 
-.culture-item-2 {
-	padding-bottom: 38px;
-}
-
 .culture-item .ja {
 	font-size: 14px;
 	font-weight: bold;
@@ -153,8 +149,6 @@ header a {
 	margin-bottom: 12px;
 	margin-right: 10%;
 	border-bottom: 1px solid #000000;
-	display: flex;
-	justify-content: space-between;
 }
 
 .culture-item .topic p {
@@ -189,12 +183,12 @@ header a {
 
 .culture-item .card {
 	/* 10 / (4.8 * 5) */ 
-	aspect-ratio: 10 / 24;
+	aspect-ratio: 9 / 4.8;
 	perspective: 1000px;
 }
 
 .culture-item .card-inner {
-	height: calc(23px + 100% + 68px * 5 - 24px);
+	height: calc(100% + 44px);
 	transition: transform .6s;
 	transform-style: preserve-3d;
 }
@@ -216,10 +210,26 @@ header a {
 
 .culture-item #btn {
 	color: darkblue;
+	position: absolute;
+	bottom: 0;
+	font-size: 20px;
+	right: 12%;
 }
 
 .culture-item .card-back .topic + .topic {
 	margin-top: 36px;
+}
+
+.culture-item .card-back .subtitle {
+	margin-top: 8px;
+}
+
+.culture-item .card-back .order {
+	margin-top: 12px;
+}
+
+.culture-item #content1 {
+	display: none;
 }
 
 /***********************************
